@@ -19,7 +19,7 @@ to setup environment.
 The Generated model should be stored in folder `./GenerationData/model_zoo/`. You can download the models from [GoogleDrive](https://drive.google.com/drive/folders/1GaqYEyhPZSL16jdHTV9Ka5rlRF0XGN9F?usp=sharing), which include the 900 models trained with imdb, 200 models trained with sst2, 200 models trained with yelp, and models with different classifier architectures - MLP, GRU, LSTM. 
 
 
-To generate trojaned BERTs, we mainly inherit our code from [NIST](https://github.com/usnistgov/trojai-round-generation/tree/round5). But they do not attack BERT, while we attack BERT and classifier when training the suspect models.
+To generate trojaned BERTs, we mainly inherit our code from [NIST](https://github.com/usnistgov/trojai-round-generation/tree/round5). We attack BERT and classifier when training the suspect models.
 
 ### Train Suspect Model
 
